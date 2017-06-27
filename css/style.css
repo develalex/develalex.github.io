@@ -1,0 +1,1471 @@
+@font-face {
+  font-family: ubuntuBold;
+  src: url("../fonts/ubuntuBold.ttf");
+}
+
+@font-face {
+  font-family: ubuntuLight;
+  src: url("../fonts/ubuntuLight.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-R;
+  src: url("../fonts/ubuntu-R.ttf");
+}
+
+@font-face {
+  font-family: MyriadProLight;
+  src: url("../fonts/MyriadPro-Light.otf");
+}
+
+/* line 41, B:/04530Maket/scss/style.scss */
+.greenBlockFon {
+  background-color: #1abc9c;
+}
+
+/* line 44, B:/04530Maket/scss/style.scss */
+.whiteBlockFon {
+  background-color: white;
+}
+
+/* line 47, B:/04530Maket/scss/style.scss */
+.colorWebDesignIcon {
+  color: #4795b7;
+}
+
+/* line 50, B:/04530Maket/scss/style.scss */
+.colorWebDevelopmentIcon {
+  color: #a56bd3;
+}
+
+/* line 54, B:/04530Maket/scss/style.scss */
+.dropdown button {
+  border: 0;
+  background-color: transparent;
+}
+
+/* line 58, B:/04530Maket/scss/style.scss */
+.dropdown li {
+  display: inline-block;
+}
+
+/* line 59, B:/04530Maket/scss/style.scss */
+.dropdown li a {
+  padding: 10px;
+}
+
+/* line 63, B:/04530Maket/scss/style.scss */
+.dropdown li .fa {
+  padding-right: 10px;
+}
+
+/* line 68, B:/04530Maket/scss/style.scss */
+.colorWebDevelopment2Icon {
+  color: #aed066;
+}
+
+/* line 71, B:/04530Maket/scss/style.scss */
+.colorWebMaintenanceIcon {
+  color: #f1438a;
+}
+
+/* line 74, B:/04530Maket/scss/style.scss */
+.colorWebMaintenance2Icon {
+  color: #ac5c5c;
+}
+
+/* line 77, B:/04530Maket/scss/style.scss */
+.colorProjectManagementIcon {
+  color: #00b7a8;
+}
+
+/* line 80, B:/04530Maket/scss/style.scss */
+.colorAqua {
+  color: aqua;
+}
+
+/* line 83, B:/04530Maket/scss/style.scss */
+.colorMagenta {
+  color: magenta;
+}
+
+/* line 86, B:/04530Maket/scss/style.scss */
+.colorYellow {
+  color: yellow;
+}
+
+/* line 89, B:/04530Maket/scss/style.scss */
+.colorRed {
+  color: red;
+}
+
+/* line 92, B:/04530Maket/scss/style.scss */
+.colorWHGreen {
+  color: chartreuse;
+}
+
+/* line 95, B:/04530Maket/scss/style.scss */
+.bcolor1 {
+  background-color: #fdbd4f;
+}
+
+/* line 98, B:/04530Maket/scss/style.scss */
+.bcolor2 {
+  background-color: #b8c496;
+}
+
+/* line 101, B:/04530Maket/scss/style.scss */
+.bcolor3 {
+  background-color: #65bcd0;
+}
+
+/* line 104, B:/04530Maket/scss/style.scss */
+.bcolor4 {
+  background-color: #d7f0ed;
+}
+
+/* line 107, B:/04530Maket/scss/style.scss */
+.bcolor5 {
+  background-color: #e0eaf3;
+}
+
+/* line 110, B:/04530Maket/scss/style.scss */
+.bcolor6 {
+  background-color: #d2c2b3;
+}
+
+/* line 113, B:/04530Maket/scss/style.scss */
+.bcolor7 {
+  background-color: #e5e4e2;
+}
+
+/* line 116, B:/04530Maket/scss/style.scss */
+.bcolor8 {
+  background-color: #ffc301;
+}
+
+/* line 119, B:/04530Maket/scss/style.scss */
+body {
+  position: relative;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/* line 128, B:/04530Maket/scss/style.scss */
+.dropdown .fa {
+  width: 36px;
+}
+
+/* line 132, B:/04530Maket/scss/style.scss */
+.grayfon {
+  background-color: #f7f7f7;
+}
+
+/* line 135, B:/04530Maket/scss/style.scss */
+.paddingBlock {
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 7px 7px #e0e0e0;
+}
+
+/* line 142, B:/04530Maket/scss/style.scss */
+.navColor {
+  background-color: #ffffff;
+}
+
+/* line 145, B:/04530Maket/scss/style.scss */
+.banner {
+  position: relative;
+  background-color: #7a7a7a;
+  height: 770px;
+  padding: 0;
+}
+
+/* line 151, B:/04530Maket/scss/style.scss */
+.nvbar {
+  position: relative;
+  height: 60px;
+  padding: 10px 220px;
+  background-color: #ffffff;
+}
+
+/* line 157, B:/04530Maket/scss/style.scss */
+.logo {
+  background-color: #ffffff;
+}
+
+/* line 162, B:/04530Maket/scss/style.scss */
+.nav a {
+  font-family: Ubuntu, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  float: left;
+  color: #a69999;
+}
+
+/* line 174, B:/04530Maket/scss/style.scss */
+.socNetwork {
+  font-family: Awesome sans-serif;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* line 179, B:/04530Maket/scss/style.scss */
+.socNetwork a {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+/* line 187, B:/04530Maket/scss/style.scss */
+.socLine {
+  position: relative;
+  display: inline-block;
+  width: 2px;
+  height: 34px;
+  border: 1px solid #f3f3f3;
+}
+
+/* line 194, B:/04530Maket/scss/style.scss */
+#header {
+  background-color: #7a7a7a;
+  color: white;
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 16px;
+  padding: 90px 220px;
+}
+
+/* line 202, B:/04530Maket/scss/style.scss */
+#header p {
+  color: white;
+}
+
+/* line 205, B:/04530Maket/scss/style.scss */
+#header .comments {
+  padding-top: 50px;
+}
+
+/* line 208, B:/04530Maket/scss/style.scss */
+#header .subcont {
+  font-size: 24px;
+}
+
+/* line 211, B:/04530Maket/scss/style.scss */
+#header .textwhatwedo {
+  padding: 40px 0;
+}
+
+/* line 214, B:/04530Maket/scss/style.scss */
+#header .fa {
+  font-size: 120px;
+  padding: 70px 0;
+}
+
+/* line 218, B:/04530Maket/scss/style.scss */
+#header .subs {
+  padding: 10px 35px;
+  margin-left: -4px;
+  position: relative;
+}
+
+/* line 224, B:/04530Maket/scss/style.scss */
+#header input {
+  background-color: white;
+  color: #c3c7d1;
+  font-size: 14px;
+  border-right: 1px solid gray;
+}
+
+/* line 233, B:/04530Maket/scss/style.scss */
+.behance {
+  color: #1a5cd6;
+}
+
+/* line 236, B:/04530Maket/scss/style.scss */
+.dribbble {
+  color: #c34577;
+}
+
+/* line 239, B:/04530Maket/scss/style.scss */
+.instagram {
+  color: #486e8d;
+}
+
+/* line 242, B:/04530Maket/scss/style.scss */
+.facebook {
+  color: #3b5998;
+}
+
+/* line 245, B:/04530Maket/scss/style.scss */
+.flickr {
+  color: #d30873;
+}
+
+/* line 248, B:/04530Maket/scss/style.scss */
+.google-plus {
+  color: #b84437;
+}
+
+/* line 251, B:/04530Maket/scss/style.scss */
+.twitter {
+  color: #00aced;
+}
+
+/* line 254, B:/04530Maket/scss/style.scss */
+.linkedin {
+  color: #3395c5;
+}
+
+/* line 257, B:/04530Maket/scss/style.scss */
+.odnoklassniki {
+  color: coral;
+}
+
+/* line 260, B:/04530Maket/scss/style.scss */
+.pinterest {
+  color: #aa2229;
+}
+
+/* line 264, B:/04530Maket/scss/style.scss */
+.fa {
+  padding-left: 10px;
+}
+
+/* line 267, B:/04530Maket/scss/style.scss */
+.circlesymbol {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid black;
+}
+
+/* line 276, B:/04530Maket/scss/style.scss */
+.cir3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 280, B:/04530Maket/scss/style.scss */
+.inlineblock {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+
+/* line 284, B:/04530Maket/scss/style.scss */
+.inlineblock .dropdown {
+  display: inline-block;
+}
+
+/* line 288, B:/04530Maket/scss/style.scss */
+.bblock {
+  padding-top: 90px;
+  padding-bottom: 95px;
+  padding-left: 220px;
+  padding-right: 220px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 295, B:/04530Maket/scss/style.scss */
+.cblock {
+  padding-top: 90px;
+  padding-bottom: 95px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 300, B:/04530Maket/scss/style.scss */
+.ich {
+  font-size: 63px;
+}
+
+/* line 303, B:/04530Maket/scss/style.scss */
+.prodfeatures {
+  padding-top: 40px;
+  font-family: ubuntuBold;
+  letter-spacing: 5px;
+  color: #a5a5a5;
+  font-size: 15px;
+}
+
+/* line 310, B:/04530Maket/scss/style.scss */
+.tc {
+  text-align: center;
+}
+
+/* line 313, B:/04530Maket/scss/style.scss */
+.textwhatwedo {
+  color: #4c4c4c;
+  font-family: ubuntuLight;
+  font-size: 61px;
+  padding-bottom: 90px;
+}
+
+/* line 318, B:/04530Maket/scss/style.scss */
+.textwhatwedo span {
+  color: #1abc9c;
+}
+
+/* line 322, B:/04530Maket/scss/style.scss */
+.blockFED {
+  margin-top: 70px;
+}
+
+/* line 324, B:/04530Maket/scss/style.scss */
+.blockFED h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  padding-top: 30px;
+}
+
+/* line 329, B:/04530Maket/scss/style.scss */
+.blockFED p {
+  font-size: 16px;
+  font-family: "Ubuntu-R";
+  color: #939598;
+}
+
+/* line 337, B:/04530Maket/scss/style.scss */
+.fullyBlock span {
+  font-size: 69px;
+  color: #4796b7;
+}
+
+/* line 343, B:/04530Maket/scss/style.scss */
+.easyBlock span {
+  font-size: 69px;
+  color: #9f5cd8;
+}
+
+/* line 349, B:/04530Maket/scss/style.scss */
+.directBlock span {
+  font-size: 69px;
+  color: #f1438a;
+}
+
+/* line 357, B:/04530Maket/scss/style.scss */
+.servInnerBlock {
+  margin: 15px;
+  background-color: white;
+  height: 250px;
+  box-shadow: 0 0 7px gray;
+  padding: 15px;
+}
+
+/* line 364, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .ServBlockIcon {
+  display: none;
+}
+
+/* line 367, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .ServBlockText {
+  text-align: left;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+/* line 372, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .sbhover {
+  display: block;
+}
+
+/* line 378, B:/04530Maket/scss/style.scss */
+.ServBlockText {
+  font-family: Ubuntu;
+  font-weight: 100;
+  font-size: 27px;
+  padding-top: 20px;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* line 386, B:/04530Maket/scss/style.scss */
+.ServBlockIcon {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 70px;
+}
+
+/* line 391, B:/04530Maket/scss/style.scss */
+.sbhover {
+  margin: 5px 25px;
+  padding: 8px 30px;
+  font-family: UbuntuLight;
+  font-size: 16px;
+  box-shadow: 2px 2px 3px #e8e8e8;
+  text-align: left;
+  display: none;
+  color: black;
+  text-decoration: none;
+}
+
+/* line 401, B:/04530Maket/scss/style.scss */
+.sbhover:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #f2f2f2;
+}
+
+/* line 407, B:/04530Maket/scss/style.scss */
+.msBox {
+  height: 500px;
+}
+
+/* line 410, B:/04530Maket/scss/style.scss */
+#slider {
+  margin: 0 10px;
+  background-color: chartreuse;
+  color: black;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+/* line 418, B:/04530Maket/scss/style.scss */
+#messageAccordion {
+  margin: 10px;
+  box-shadow: 0 0 3px 1px #dcdddf;
+  text-align: left;
+}
+
+/* line 423, B:/04530Maket/scss/style.scss */
+#messageAccordion h3 {
+  padding: 35px 20px;
+  margin: 0;
+  font-family: UbuntuLight;
+  font-size: 20px;
+  color: #ddd;
+  border: 5px solid transparent;
+  border-bottom: 1px solid #dcdddf;
+}
+
+/* line 434, B:/04530Maket/scss/style.scss */
+#messageAccordion .ui-accordion-header-active {
+  font-size: 20px;
+  color: black;
+}
+
+/* line 438, B:/04530Maket/scss/style.scss */
+#messageAccordion div {
+  padding: 10px 20px;
+  border: 5px solid transparent;
+  border-bottom: 1px solid #dcdddf;
+}
+
+/* line 444, B:/04530Maket/scss/style.scss */
+.messageNotice {
+  margin: 10px;
+  font-family: Ubuntu-R;
+  color: #9b9da0;
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 451, B:/04530Maket/scss/style.scss */
+.tabOurWorks {
+  display: inline-block;
+  padding: 18px 40px;
+  margin: 0 1px;
+  box-shadow: 0 0 5px 2px  #e9e9e8;
+  font-family: 'Ubuntu-R' ,sans-serif;
+  color: white;
+  background-color: #1abc9c;
+  font-size: 18px;
+}
+
+/* line 462, B:/04530Maket/scss/style.scss */
+.tabOurWorksActive {
+  background-color: black;
+}
+
+/* line 466, B:/04530Maket/scss/style.scss */
+.tab {
+  display: inline-block;
+  padding: 18px 40px;
+  margin: 0 1px;
+  box-shadow: 0 0 5px 2px  #e9e9e8;
+  border-radius: 5px 5px 0 0;
+  font-family: 'Ubuntu-R' sans-serif;
+}
+
+/* line 475, B:/04530Maket/scss/style.scss */
+.tabActive {
+  color: white;
+  background-color: #1abc9c;
+}
+
+/* line 480, B:/04530Maket/scss/style.scss */
+#tabContent {
+  padding-top: 110px;
+}
+
+/* line 483, B:/04530Maket/scss/style.scss */
+#IntroContent h3 {
+  margin-top: 60px;
+}
+
+/* line 486, B:/04530Maket/scss/style.scss */
+.tabText {
+  font-family: UbuntuLight;
+  text-align: left;
+  margin: auto 0;
+  padding: 0 15px;
+}
+
+/* line 492, B:/04530Maket/scss/style.scss */
+.tabText h3 {
+  font-size: 27px;
+  padding-right: 150px;
+}
+
+/* line 496, B:/04530Maket/scss/style.scss */
+.tabText p {
+  font-size: 16px;
+  padding-top: 20px;
+  color: #c9c9c9;
+}
+
+/* line 503, B:/04530Maket/scss/style.scss */
+.tbCont {
+  display: none;
+}
+
+/* line 506, B:/04530Maket/scss/style.scss */
+.tbContActive {
+  display: block;
+}
+
+/* line 509, B:/04530Maket/scss/style.scss */
+.bIcon {
+  font-size: 220px;
+  padding: 20px;
+}
+
+/* line 514, B:/04530Maket/scss/style.scss */
+.worksSquard {
+  position: relative;
+  height: 260px;
+  transition: all .2s;
+  z-index: 2;
+}
+
+/* line 522, B:/04530Maket/scss/style.scss */
+.block {
+  position: relative;
+  height: 260px;
+  transition: all .2s;
+  z-index: 2;
+}
+
+/* line 527, B:/04530Maket/scss/style.scss */
+.block:hover {
+  z-index: 3;
+}
+
+/* line 529, B:/04530Maket/scss/style.scss */
+.block:hover .blHover {
+  opacity: 1;
+}
+
+/* line 533, B:/04530Maket/scss/style.scss */
+.block:hover .underBlock {
+  opacity: 1;
+}
+
+/* line 540, B:/04530Maket/scss/style.scss */
+.rollUp:hover .worksSquard {
+  transform: translate(0, -70px);
+}
+
+/* line 546, B:/04530Maket/scss/style.scss */
+.rollDown:hover .worksSquard {
+  transform: translate(0, 70px);
+}
+
+/* line 551, B:/04530Maket/scss/style.scss */
+.blockIcon {
+  font-size: 180px;
+  padding: 30px;
+}
+
+/* line 555, B:/04530Maket/scss/style.scss */
+.underBlock {
+  padding: 10px;
+  background-color: #252830;
+  color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 564, B:/04530Maket/scss/style.scss */
+.rollUp .underBlock {
+  bottom: 0;
+}
+
+/* line 569, B:/04530Maket/scss/style.scss */
+.rollDown .underBlock {
+  top: 0;
+}
+
+/* line 573, B:/04530Maket/scss/style.scss */
+.OurWorksLink {
+  padding-bottom: 80px;
+}
+
+/* line 576, B:/04530Maket/scss/style.scss */
+.blockCss {
+  margin: 1px;
+  padding: 5px;
+  font-family: 'Ubuntu-R', sans-serif;
+  font-size: 11px;
+  border-radius: 5px;
+  background-color: #f2ede8;
+  color: #5ebd85;
+}
+
+/* line 585, B:/04530Maket/scss/style.scss */
+.blHover {
+  position: relative;
+  opacity: 0;
+  transition: all .5s;
+}
+
+/* line 591, B:/04530Maket/scss/style.scss */
+.blockHover {
+  padding: 20px;
+}
+
+/* line 594, B:/04530Maket/scss/style.scss */
+.bImg {
+  max-height: 130px;
+  max-width: 130px;
+}
+
+/* line 599, B:/04530Maket/scss/style.scss */
+.teamPerson {
+  padding: 20px;
+  margin: 5px;
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 27px;
+}
+
+/* line 604, B:/04530Maket/scss/style.scss */
+.teamPerson:hover {
+  box-shadow: 0 0 14px 10px #e9e9e8;
+}
+
+/* line 608, B:/04530Maket/scss/style.scss */
+.personFoto {
+  margin: 0 auto;
+  width: 256px;
+  height: 480px;
+  max-width: 256px;
+  max-height: 480px;
+  background-color: #e9e9e8;
+  margin-bottom: 20px;
+}
+
+/* line 617, B:/04530Maket/scss/style.scss */
+.persPosition {
+  font-size: 19px;
+}
+
+/* line 620, B:/04530Maket/scss/style.scss */
+#newFeatures {
+  background: #f9f9f9;
+  color: #939598;
+}
+
+/* line 623, B:/04530Maket/scss/style.scss */
+#newFeatures h2 {
+  font-family: 'ubuntuBold',sans-serif;
+  font-size: 33px;
+  color: black;
+}
+
+/* line 629, B:/04530Maket/scss/style.scss */
+#newFeatures h3 {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 33px;
+}
+
+/* line 632, B:/04530Maket/scss/style.scss */
+#newFeatures h3 span {
+  color: #1abc9c;
+}
+
+/* line 636, B:/04530Maket/scss/style.scss */
+#newFeatures h6 {
+  padding-top: 15px;
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 15px;
+  padding-bottom: 60px;
+}
+
+/* line 644, B:/04530Maket/scss/style.scss */
+#newFeatures ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 80px;
+}
+
+/* line 648, B:/04530Maket/scss/style.scss */
+#newFeatures ul li {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* line 652, B:/04530Maket/scss/style.scss */
+#newFeatures ul li:before {
+  font-family: 'FontAwesome';
+  color: black;
+  font-size: 17px;
+  content: '\f18e';
+  padding-right: 10px;
+}
+
+/* line 662, B:/04530Maket/scss/style.scss */
+#newFeatures button {
+  padding: 20px 40px;
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 20px;
+}
+
+/* line 668, B:/04530Maket/scss/style.scss */
+#newFeatures .butBlack {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+/* line 675, B:/04530Maket/scss/style.scss */
+.rectangles {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+/* line 681, B:/04530Maket/scss/style.scss */
+.rectangle {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-color: #e0eaf3;
+  transform: rotate3d(0, 0, 1, 22deg) rotate3d(0, 0, 1, 12deg) rotate3d(1, 0, 0, 40deg);
+}
+
+/* line 690, B:/04530Maket/scss/style.scss */
+.rect1 {
+  top: 100px;
+  box-shadow: 20px 20px 30px 1px #afb5ba;
+}
+
+/* line 694, B:/04530Maket/scss/style.scss */
+.rect2 {
+  top: 180px;
+  box-shadow: 20px 20px 30px 1px #afb5ba;
+}
+
+/* line 698, B:/04530Maket/scss/style.scss */
+.rect3 {
+  top: 260px;
+  box-shadow: 20px 20px 30px 1px #afb5ba;
+}
+
+/* line 703, B:/04530Maket/scss/style.scss */
+#blackBlock {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 220px;
+  padding-right: 220px;
+  background-color: #141519;
+  color: #f9f9f9;
+}
+
+/* line 710, B:/04530Maket/scss/style.scss */
+#blackBlock h3 {
+  font-family: 'Ubuntu-R',sans-serif;
+  padding-bottom: 30px;
+}
+
+/* line 715, B:/04530Maket/scss/style.scss */
+.bh1 {
+  font-family: "ubuntuLight" sans-serif;
+  font-size: 47px;
+  padding-bottom: 20px;
+}
+
+/* line 720, B:/04530Maket/scss/style.scss */
+.bh6 {
+  font-family: "ubuntu-R" , sans-serif;
+  font-size: 18px;
+}
+
+/* line 728, B:/04530Maket/scss/style.scss */
+.blackColumn .et {
+  font-size: 47px;
+  padding-bottom: 10px;
+}
+
+/* line 733, B:/04530Maket/scss/style.scss */
+#subscribe {
+  font-family: ubuntuLight,sans-serif;
+  background-color: #f1f1ef;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* line 740, B:/04530Maket/scss/style.scss */
+.subscribeP {
+  font-size: 46px;
+  color: #4c4c4c;
+  margin: 0 5px;
+}
+
+/* line 747, B:/04530Maket/scss/style.scss */
+.emailBlock {
+  background-color: white;
+  color: #c3c7d1;
+  font-size: 14px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+/* line 754, B:/04530Maket/scss/style.scss */
+.emailBlock input {
+  border: 0;
+  width: 90%;
+}
+
+/* line 758, B:/04530Maket/scss/style.scss */
+.emailBlock button {
+  color: #1abc9c;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+
+/* line 769, B:/04530Maket/scss/style.scss */
+.subscribeText {
+  font-size: 16px;
+  color: #939598;
+  padding: 40px 10px;
+}
+
+/* line 774, B:/04530Maket/scss/style.scss */
+.GreenText {
+  color: #1abc9c;
+}
+
+/* line 778, B:/04530Maket/scss/style.scss */
+#BetterFaster p.header {
+  font-family: "Ubuntu-R",sans-serif;
+  font-size: 16px;
+  color: #939598;
+  padding-bottom: 50px;
+}
+
+/* line 783, B:/04530Maket/scss/style.scss */
+#BetterFaster p.header span {
+  font-family: 'UbuntuBold',sans-serif;
+}
+
+/* line 788, B:/04530Maket/scss/style.scss */
+#BetterFaster h2 {
+  font-family: 'UbuntuLight',sans-serif;
+  font-size: 47px;
+  padding-bottom: 30px;
+}
+
+/* line 793, B:/04530Maket/scss/style.scss */
+#BetterFaster p.ltext {
+  font-family: 'UbuntuLight',sans-serif;
+  color: #939598;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+/* line 801, B:/04530Maket/scss/style.scss */
+.butGreen {
+  color: white;
+  background-color: #1abc9c;
+}
+
+/* line 806, B:/04530Maket/scss/style.scss */
+.but {
+  font-family: "ubuntuLight",sans-serif;
+  border: 0;
+  padding: 15px 35px;
+}
+
+/* line 811, B:/04530Maket/scss/style.scss */
+#productPackages {
+  background-color: #f1f1ef;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* line 815, B:/04530Maket/scss/style.scss */
+#productPackages .ich {
+  color: #4c4c4c;
+}
+
+/* line 818, B:/04530Maket/scss/style.scss */
+#productPackages .PPPriceBlock {
+  position: relative;
+  padding-top: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 40px;
+}
+
+/* line 824, B:/04530Maket/scss/style.scss */
+#productPackages .head {
+  padding-bottom: 20px;
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 20px;
+}
+
+/* line 829, B:/04530Maket/scss/style.scss */
+#productPackages .cW {
+  color: white;
+}
+
+/* line 832, B:/04530Maket/scss/style.scss */
+#productPackages .cB {
+  color: black;
+}
+
+/* line 835, B:/04530Maket/scss/style.scss */
+#productPackages .circleOut {
+  border-radius: 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid #e0e0e0;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+/* line 844, B:/04530Maket/scss/style.scss */
+#productPackages .circleIn {
+  border-radius: 50%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 121px;
+  height: 121px;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 855, B:/04530Maket/scss/style.scss */
+#productPackages .cGrayFon {
+  background-color: #fbfbfb;
+}
+
+/* line 858, B:/04530Maket/scss/style.scss */
+#productPackages .price {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 29px;
+  margin: 0;
+}
+
+/* line 863, B:/04530Maket/scss/style.scss */
+#productPackages .permonth {
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+/* line 869, B:/04530Maket/scss/style.scss */
+#productPackages .Btext {
+  font-family: 'UbuntuBold',sans-serif;
+  font-size: 16px;
+  margin: 20px auto;
+}
+
+/* line 873, B:/04530Maket/scss/style.scss */
+#productPackages .Btext span {
+  font-family: 'Ubuntu-R',sans-serif;
+}
+
+/* line 877, B:/04530Maket/scss/style.scss */
+#productPackages .Ctext {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 16px;
+  margin: 4px auto;
+}
+
+/* line 883, B:/04530Maket/scss/style.scss */
+#productPackages .colPer {
+  color: #928b8b;
+}
+
+/* line 886, B:/04530Maket/scss/style.scss */
+#productPackages .but {
+  margin-bottom: 30px;
+}
+
+/* line 889, B:/04530Maket/scss/style.scss */
+#productPackages .downText {
+  font-family: 'UbuntuLight',sans-serif;
+  font-size: 15px;
+  color: #939598;
+}
+
+/* line 893, B:/04530Maket/scss/style.scss */
+#productPackages .downText span {
+  color: #1abc9c;
+}
+
+/* line 899, B:/04530Maket/scss/style.scss */
+.vertLine {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid white;
+}
+
+/* line 908, B:/04530Maket/scss/style.scss */
+#getitrightnow .headertext {
+  font-family: 'UbuntuLight',sans-serif;
+  font-size: 57px;
+  color: #4c4c4c;
+}
+
+/* line 913, B:/04530Maket/scss/style.scss */
+#getitrightnow .subtext {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+/* line 917, B:/04530Maket/scss/style.scss */
+#getitrightnow .subtext a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+/* line 924, B:/04530Maket/scss/style.scss */
+#getitrightnow .OSBlock {
+  background-color: #222222;
+  color: white;
+  font-family: MyriadProLight,sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+}
+
+/* line 933, B:/04530Maket/scss/style.scss */
+#getitrightnow .OSBlock span {
+  font-size: 28px;
+}
+
+/* line 936, B:/04530Maket/scss/style.scss */
+#getitrightnow .OSBlock p {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+/* line 941, B:/04530Maket/scss/style.scss */
+#getitrightnow .OSBlock .fa, #getitrightnow .OSBlock div {
+  display: inline-block;
+}
+
+/* line 944, B:/04530Maket/scss/style.scss */
+#getitrightnow .OSBlock .fa {
+  padding: 10px;
+}
+
+/* line 949, B:/04530Maket/scss/style.scss */
+#grayBlock {
+  padding: 0 220px;
+  padding-top: 80px;
+  background-color: #a5a5a5;
+}
+
+/* line 953, B:/04530Maket/scss/style.scss */
+#grayBlock .iconMan {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  width: 140px;
+  max-width: 140px;
+  height: 140px;
+  max-height: 140px;
+  border-radius: 50%;
+  background-image: url("../img/iconMan.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 966, B:/04530Maket/scss/style.scss */
+#grayBlock .star {
+  color: #ffb74d;
+  padding: 40px;
+}
+
+/* line 969, B:/04530Maket/scss/style.scss */
+#grayBlock .star .fa {
+  padding: 0;
+}
+
+/* line 973, B:/04530Maket/scss/style.scss */
+#grayBlock .most {
+  color: white;
+  font-family: "Ubuntu-R",sans-serif;
+  font-size: 16px;
+}
+
+/* line 978, B:/04530Maket/scss/style.scss */
+#grayBlock .someone {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+/* line 981, B:/04530Maket/scss/style.scss */
+#grayBlock .someone span {
+  font-family: 'UbuntuBold',sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 990, B:/04530Maket/scss/style.scss */
+#partners {
+  background-color: #f9f9f9;
+  color: #1abc9c;
+  font-family: "Ubuntu-R",sans-serif;
+  font-size: 27px;
+  padding: 80px 0;
+}
+
+/* line 996, B:/04530Maket/scss/style.scss */
+#partners span {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+/* line 1004, B:/04530Maket/scss/style.scss */
+#partners .forbes {
+  max-height: 30px;
+}
+
+/* line 1007, B:/04530Maket/scss/style.scss */
+#partners .newyorktimes {
+  max-height: 30px;
+}
+
+/* line 1010, B:/04530Maket/scss/style.scss */
+#partners .wallstreet {
+  max-height: 30px;
+}
+
+/* line 1013, B:/04530Maket/scss/style.scss */
+#partners .guardian {
+  max-height: 50px;
+}
+
+/* line 1018, B:/04530Maket/scss/style.scss */
+#partners a:hover {
+  text-decoration: none;
+}
+
+/* line 1023, B:/04530Maket/scss/style.scss */
+#contactUs {
+  color: #c9c9c9;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+/* line 1028, B:/04530Maket/scss/style.scss */
+#contactUs .l300 input {
+  width: 48%;
+}
+
+/* line 1033, B:/04530Maket/scss/style.scss */
+#contactUs .l600 input {
+  width: 98%;
+}
+
+/* line 1038, B:/04530Maket/scss/style.scss */
+#contactUs .l26 input {
+  width: 98%;
+  height: 200px;
+}
+
+/* line 1043, B:/04530Maket/scss/style.scss */
+#contactUs input {
+  height: 50px;
+  margin: 5px 5px;
+}
+
+/* line 1047, B:/04530Maket/scss/style.scss */
+#contactUs button {
+  padding: 15px 40px;
+  margin: 70px 0;
+}
+
+/* line 1051, B:/04530Maket/scss/style.scss */
+#contactUs .bblock {
+  padding-top: 0;
+}
+
+/* line 1057, B:/04530Maket/scss/style.scss */
+#grayLinkBlock {
+  background-color: #f7f7f7;
+  padding: 50px 220px;
+  position: relative;
+}
+
+/* line 1061, B:/04530Maket/scss/style.scss */
+#grayLinkBlock .vertLine {
+  right: 0;
+  border-right: 1px solid black;
+}
+
+/* line 1065, B:/04530Maket/scss/style.scss */
+#grayLinkBlock .head {
+  font-size: 42px;
+}
+
+/* line 1070, B:/04530Maket/scss/style.scss */
+#grayLinkBlock .pbod {
+  font-family: 'ubuntuBold',sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+/* line 1075, B:/04530Maket/scss/style.scss */
+#grayLinkBlock .link {
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 19px;
+}
+
+/* line 1082, B:/04530Maket/scss/style.scss */
+#footerGreenBlock {
+  padding: 40px 220px;
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 1088, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .header {
+  font-size: 46px;
+  padding-left: 0;
+}
+
+/* line 1092, B:/04530Maket/scss/style.scss */
+#footerGreenBlock span {
+  font-family: 'ubuntuBold',sans-serif;
+}
+
+/* line 1095, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .but {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+/* line 1102, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .but button {
+  padding: 10px 40px;
+  border: 1px solid white;
+}
+
+/* line 1108, B:/04530Maket/scss/style.scss */
+#designed {
+  background-color: #252830;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: 'ubuntu-R',sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  margin: 0 -15px;
+  padding: 40px 220px;
+}
+
+/* line 1120, B:/04530Maket/scss/style.scss */
+#designed .trademark > div {
+  display: inline-block;
+}
+
+/* line 1126, B:/04530Maket/scss/style.scss */
+#designed .tradecomment {
+  margin-left: 15px;
+}
+
+@media (max-width: 480px) {
+  /* line 1134, B:/04530Maket/scss/style.scss */
+  .bblock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 1138, B:/04530Maket/scss/style.scss */
+  #nf, .subscribeP {
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 1145, B:/04530Maket/scss/style.scss */
+  .bblock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 1149, B:/04530Maket/scss/style.scss */
+  #nf, .subscribeP {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 969px) {
+  /* line 1156, B:/04530Maket/scss/style.scss */
+  .bblock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 1160, B:/04530Maket/scss/style.scss */
+  #nf {
+    text-align: center;
+  }
+}
+
+@media (min-width: 967px) and (max-width: 1200px) {
+  /* line 1165, B:/04530Maket/scss/style.scss */
+  .bblock {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  /* line 1169, B:/04530Maket/scss/style.scss */
+  #nf {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
